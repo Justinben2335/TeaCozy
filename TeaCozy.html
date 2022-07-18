@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<style>
+  html, h1, h2, h3, h4{
+      background-color:black;
+      color:seashell;
+      opacity:.9;
+  }
+  header {
+      background-color: black;
+      position: fixed;
+      height: 69px;
+      width: 100%;
+      border-bottom:1px solid seashell;
+      z-index: 1;
+      top:0px;
+      left:0px;
+      right:0px;
+  }
+  .logo {
+      margin-left: 10px;
+      margin-top:10px;
+      height:50px;
+  }
+  a {
+      position:relative;
+      display: inline-block;
+      font-size: 40px;
+      color:seashell;
+      width:auto;
+      font-size:22px;
+  }
+  li {
+      list-style-type: none;
+      display:inline-block;
+      margin: 0 10px;
+  }
+  h1 {
+      color:seashell;
+  }
+  nav {
+      float:right;
+  }
+  .mission-flexcontainer {
+      display:block;
+  }
+  .mission-img {
+      background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1jmli5b*_ga*MjU2NzU5NjY1LjE2NTMyNjcwMzM.*_ga_3LRZM6TM9L*MTY1ODAwNDYwMS4xNy4xLjE2NTgwMDQ2MDguNTM);
+      margin: 0 auto;
+      width:1200px;
+      height:700px;
+  }
+  .mission-text {
+      position:absolute;
+      text-align:center;
+      background-color:black;
+      top:300px;
+      width:1200px;
+  }
+  .tea-container {
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  .featured-tea-flexboxcontainer {
+      display:flex;
+      max-width:1000px;
+      text-align: center;
+      justify-items:space-between;
+      flex-wrap: wrap;
+  }
+  .featured-text {
+      text-align:center;
+  }
+  .featured-tea-content img{
+      max-width: 300px;
+      max-height:200px;
+  }
+  .featured-tea-content {
+      display:inline-block;
+      text-align: center;
+      width:300px;
+      margin:5px 5px;
+  }
+  </style>
+<html>
+    <head>
+        <link href="Resources\CSS\TeaCozy.css" rel="stylesheet">
+    </head>
+    <header>
+        <img class='logo' src="Resources\Media\img-tea-cozy-logo.png">
+        <nav class="nav">
+            <ul>
+                <li><a href='#'>Mission</a></li>
+                <li><a href='#'>Featured Tea</a></li>
+                <li><a href='#'>Locations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mission-flexcontainer">
+        <div class="mission-img">
+            <div class="mission-text">
+                <h2>Our Mission</h2>
+                <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+            </div>
+        </div>
+    <div class="tea-container">
+        <span class="featured-tea-flexcontainer">
+            <div class="featured-text">
+                <h2>Tea of the Month</h2>
+                <h4>What's Steeping at The Tea Cozy</h4>
+            </div>
+            <span class="featured-tea-content">
+                <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg?_gl=1*13lx87p*_ga*MjU2NzU5NjY1LjE2NTMyNjcwMzM.*_ga_3LRZM6TM9L*MTY1ODAwNDYwMS4xNy4xLjE2NTgwMDQ2MDguNTM">
+                <h2>Fall Berry Tea</h2>
+            </span>
+            <span class="featured-tea-content">
+                <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg?_gl=1*10iswxl*_ga*MjU2NzU5NjY1LjE2NTMyNjcwMzM.*_ga_3LRZM6TM9L*MTY1ODAwNDYwMS4xNy4xLjE2NTgwMDQ2MDguNTM.">
+                <h2>Spiced Rum Tea</h2>
+            </span>
+            <span class="featured-tea-content">
+                <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg?_gl=1*10iswxl*_ga*MjU2NzU5NjY1LjE2NTMyNjcwMzM.*_ga_3LRZM6TM9L*MTY1ODAwNDYwMS4xNy4xLjE2NTgwMDQ2MDguNTM">
+                <h2>Seasonal Donuts</h2>
+            </span>
+            <span class="featured-tea-content">
+                <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg?_gl=1*10iswxl*_ga*MjU2NzU5NjY1LjE2NTMyNjcwMzM.*_ga_3LRZM6TM9L*MTY1ODAwNDYwMS4xNy4xLjE2NTgwMDQ2MDguNTM">
+                <h2>Myrtle Ave Tea</h2>
+            </span>
+            <span class="featured-tea-content">
+                <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg?_gl=1*10iswxl*_ga*MjU2NzU5NjY1LjE2NTMyNjcwMzM.*_ga_3LRZM6TM9L*MTY1ODAwNDYwMS4xNy4xLjE2NTgwMDQ2MDguNTM">
+                <h2>Bedford Bizarre Tea</h2>
+            </span>
+    </div>
+    </span>
+    </main>
+</html>
